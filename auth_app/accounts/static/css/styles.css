@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Container */
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus, form button:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 4px rgba(30, 58, 138, 0.4);
+}
+
+form button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #154074;
+}
+
+/* Links */
+a {
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 28px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List Styles (Profile Page) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9fafb;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons & Navigation Links */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #154074;
+}
+
+/* Dashboard Welcome */
+.dashboard-message {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b5563;
+}
